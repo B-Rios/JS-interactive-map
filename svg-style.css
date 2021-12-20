@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#svg-map path {
+    fill: #00b327;
+}
+
+#svg-map text {
+    fill: #0d00c0;
+    font: 12px Arial-BoldMT, sans-serif;
+    cursor: pointer;
+}
+
+#svg-map a {
+    text-decoration: none;
+}
+
+#svg-map a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#svg-map a:hover path {
+    fill: #a5d6ff !important;
+}
+
+#svg-map a:hover text {
+    fill: #005312;
+    font: 14px Arial-BoldMT, sans-serif;
+    font-weight: bolder;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.map {
+    width: 50%;
+    height: 512px;
+    background-color: #9cc0fa;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.data {
+    width: 50%;
+    height: 512px;
+    background-color: #4100a8;
+}
+
+.data p {
+    color: white;
+    margin: 50px;
+}
