@@ -4,11 +4,11 @@ An interactive map created using js maps libraries. Just for testing and trainin
 
 ## What i used
 
-**SVG map**
-_map used with modifications_
+**SVG map:**  
+_map used with modifications_  
 [Felipe Eduardo's repository](https://github.com/felipeduardo/mapa-brasil-svg)
 
-**zooming and panning:**
+**zooming and panning:**  
 [panzoom repository](https://github.com/timmywil/panzoom)
 
 ## Try the map
